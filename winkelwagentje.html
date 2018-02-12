@@ -11,93 +11,98 @@
     <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 </head>
+<!--
+* groep: 7a
+* naam: Maud de Haas
+* datum: 26-01-2018
+-->
 <body>
 
 
-<nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">CandyShop</a>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">CandyShop</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="webshop.html">Webshop</a></li>
+                    <li class="active"><a href="winkelwagentje.html">Winkelwagen</a></li>
+                </ul>
+            </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home </a></li>
-                <li ><a href="webshop.html">Webshop</a></li>
-                <li class="active"><a href="winkelwagentje.html">Winkelwagen</a></li>
-            </ul>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+
+            <h1>CandyShop</h1>
+            <p>Snoep, snoep, snoep!!</p>
         </div>
     </div>
-</nav>
 
-<div class="jumbotron">
+
+
     <div class="container">
+        <div class="row">
 
-        <h1>CandyShop</h1>
-        <p>Snoep, snoep, snoep!!</p>
-    </div>
-</div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/smarties.jpg">
+            </div>
 
-
-
-<div class="container">
-    <div class="row">
-
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/smarties.jpg">
-        </div>
-
-        <div class="col-md-3">
-            <h3>Smarties</h3>
-            <p>Prijs per 100 gram: &euro; <span id="smarties_prijs" 1,50 </span> </p>
-        </div>
+            <div class="col-md-3">
+                <h3>Smarties</h3>
+                <p>Prijs per 100 gram: &euro; <span id="smarties_prijs" 1,50 </span> </p>
+            </div>
 
 
-        <div class="col-md-1">
-            <input type="number" id="smarties_aantal" class="form-cotrol" name="prijs" value="0" />
-        </div>
+            <div class="col-md-1">
+                <input type="number" id="smarties_aantal" class="form-cotrol" name="prijs" value="0" />
+            </div>
 
-    </div> <!--row-->
+        </div> <!--row-->
 
-    <div class="row">
+        <div class="row">
 
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/candy6.jpg">
-        </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/candy6.jpg">
+            </div>
 
-        <div class="col-md-3">
-            <h3>Zure Slungels</h3>
-            <p>Prijs per 100 gram: &euro; <span id="zureslungels_prijs" 1.55</span> </p>
-        </div>
+            <div class="col-md-3">
+                <h3>Zure Slungels</h3>
+                <p>Prijs per 100 gram: &euro; <span id="zureslungels_prijs" 1.55</span> </p>
+            </div>
 
-        <div class="col-md-1">
-            <input type="number" id="aantalslungels" class="form-cotrol" value="0" >
-        </div>
+            <div class="col-md-1">
+                <input type="number" id="aantalslungels" class="form-cotrol" value="0">
+            </div>
 
-        <!--<div class="col-md-1">
-            <p id="slungelstotal">0.00</p>
-        </div>-->
+            <!--<div class="col-md-1">
+                <p id="slungelstotal">0.00</p>
+            </div>-->
 
-    </div><!--row-->
+        </div><!--row-->
 
-    <div class="row">
-        <div class="col-md-4">
-            <img class="img-responsive" src="img/candy7.jpg">
-        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/candy7.jpg">
+            </div>
 
-        <div class="col-md-3">
-            <h3>Partijtje Pasetelsnoep</h3>
-            <p>Prijs per 100 gram: &euro;<span id="partijtje_prijs" 1.45</span></p>
-        </div>
+            <div class="col-md-3">
+                <h3>Partijtje Pasetelsnoep</h3>
+                <p>Prijs per 100 gram: &euro;<span id="partijtje_prijs" 1.45</span></p>
+            </div>
 
-        <div class="col-md-1">
-            <input type="number" id="aantalpartijtje" class="form-cotrol" value="0">
-        </div>
+            <div class="col-md-1">
+                <input type="number" id="aantalpartijtje" class="form-cotrol" value="0">
+            </div>
 
-        <!-- <div class="col-md-1">
-            <p id="pasteltotal">0.00</p>
-        </div>-->
+            <!-- <div class="col-md-1">
+                <p id="pasteltotal">0.00</p>
+            </div>-->
 
-    </div><!--row-->
+        </div><!--row-->
 
         <div class="row">
             <div class="col-md-7">
@@ -133,32 +138,32 @@
         </div> <!-- row -->
     </div> <!--container -->
 
-<script>
-    //nog niet af
-    //Smarties
-    function subtotaalberekenensmarties(){
-        var prijs = 1.50;
-        var aantal = (aantalinput.value);
-        var totaalprijs = prijs * aantal;
-    }
+    <script>
+        //nog niet af
+        //Smarties
+        function subtotaalberekenensmarties() {
+            var prijs = 1.50;
+            var aantal = (aantalinput.value);
+            var totaalprijs = prijs * aantal;
+        }
 
 
-    var aantalsmarties = document.getElementById("aantalsmarties");
-    var smartiestotal = document.getElementById("smartiestotal");
+        var aantalsmarties = document.getElementById("aantalsmarties");
+        var smartiestotal = document.getElementById("smartiestotal");
 
-    aantalsmarties.addEventListener("change", function() {
-        subtotaalberekenensmarties(aantalsmarties, smartiestotal);
-    });
+        aantalsmarties.addEventListener("change", function () {
+            subtotaalberekenensmarties(aantalsmarties, smartiestotal);
+        });
 
-    //slungels
-    function subtotaalberekenenslungels(){
-        var prijs = 1.50;
-        var aantal = (aantalinput.value);
-        var totaalprijs = prijs * aantal;
-    }
+        //slungels
+        function subtotaalberekenenslungels() {
+            var prijs = 1.50;
+            var aantal = (aantalinput.value);
+            var totaalprijs = prijs * aantal;
+        }
 
 
 
-</script>
+    </script>
 </body>
 </html>
