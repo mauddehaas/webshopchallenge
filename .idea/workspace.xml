@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ed0b873-5dfc-4c42-a853-ab138edcdb5a" name="Default" comment="" />
+    <list default="true" id="2ed0b873-5dfc-4c42-a853-ab138edcdb5a" name="Default" comment="test 2 rdh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,54 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="webshop.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="webshop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#1480#1486#0" expanded="true" />
-                <element signature="e#2118#2125#0" expanded="true" />
-                <element signature="e#2293#2299#0" expanded="true" />
-                <element signature="e#2929#2936#0" expanded="true" />
-                <element signature="e#3103#3109#0" expanded="true" />
-                <element signature="e#3739#3746#0" expanded="true" />
-                <element signature="e#3912#3918#0" expanded="true" />
-                <element signature="e#4548#4555#0" expanded="true" />
-                <element signature="e#4729#4735#0" expanded="true" />
-                <element signature="e#5365#5372#0" expanded="true" />
-                <element signature="e#5535#5541#0" expanded="true" />
-                <element signature="e#6171#6178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="winkelwagentje.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winkelwagentje.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="495">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -82,9 +42,9 @@
       <list>
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/webshop.html" />
         <option value="$PROJECT_DIR$/winkelwagentje.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/webshop.html" />
       </list>
     </option>
   </component>
@@ -96,8 +56,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1589" />
-    <option name="width" value="1622" />
+    <option name="x" value="613" />
+    <option name="width" value="2495" />
     <option name="height" value="1731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -116,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,21 +84,10 @@
               <item name="Webshopchallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webshopchallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Webshopchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webshopchallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Webshopchallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Webshopchallenge" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -174,6 +124,7 @@
       <updated>1516955403904</updated>
       <workItem from="1516955405142" duration="17073000" />
       <workItem from="1518423292575" duration="927000" />
+      <workItem from="1518457737196" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="challenge">
       <created>1516969721310</created>
@@ -210,19 +161,26 @@
       <option name="project" value="LOCAL" />
       <updated>1518423506521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test 2 rdh">
+      <created>1518457934383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1518457934383</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18000000" />
+    <option name="totallyTimeSpent" value="18225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1589" y="0" width="1622" height="1731" extended-state="0" />
+    <frame x="613" y="0" width="2495" height="1731" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43296883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328956" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328956" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -249,7 +207,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="challenge" />
+    <MESSAGE value="test 2 rdh" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 2 rdh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -260,20 +219,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#1480#1486#0" expanded="true" />
-            <element signature="e#2118#2125#0" expanded="true" />
-            <element signature="e#2293#2299#0" expanded="true" />
-            <element signature="e#2929#2936#0" expanded="true" />
-            <element signature="e#3103#3109#0" expanded="true" />
-            <element signature="e#3739#3746#0" expanded="true" />
-            <element signature="e#3912#3918#0" expanded="true" />
-            <element signature="e#4548#4555#0" expanded="true" />
-            <element signature="e#4729#4735#0" expanded="true" />
-            <element signature="e#5365#5372#0" expanded="true" />
-            <element signature="e#5535#5541#0" expanded="true" />
-            <element signature="e#6171#6178#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winkelwagentje.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -354,14 +332,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winkelwagentje.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -370,24 +340,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webshop.html">
+    <entry file="file://$PROJECT_DIR$/winkelwagentje.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#1480#1486#0" expanded="true" />
-            <element signature="e#2118#2125#0" expanded="true" />
-            <element signature="e#2293#2299#0" expanded="true" />
-            <element signature="e#2929#2936#0" expanded="true" />
-            <element signature="e#3103#3109#0" expanded="true" />
-            <element signature="e#3739#3746#0" expanded="true" />
-            <element signature="e#3912#3918#0" expanded="true" />
-            <element signature="e#4548#4555#0" expanded="true" />
-            <element signature="e#4729#4735#0" expanded="true" />
-            <element signature="e#5365#5372#0" expanded="true" />
-            <element signature="e#5535#5541#0" expanded="true" />
-            <element signature="e#6171#6178#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -395,6 +352,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
