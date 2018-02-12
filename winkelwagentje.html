@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">CandyShop</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home </a></li>
+                <li ><a href="webshop.html">Webshop</a></li>
+                <li class="active"><a href="winkelwagentje.html">Winkelwagen</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container">
+
+        <h1>CandyShop</h1>
+        <p>Snoep, snoep, snoep!!</p>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/smarties.jpg">
+        </div>
+
+        <div class="col-md-3">
+            <h3>Smarties</h3>
+            <p>Prijs per 100 gram: &euro; <span id="smarties_prijs" 1,50 </span> </p>
+        </div>
+
+
+        <div class="col-md-1">
+            <input type="number" id="smarties_aantal" class="form-cotrol" name="prijs" value="0" />
+        </div>
+
+    </div> <!--row-->
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/candy6.jpg">
+        </div>
+
+        <div class="col-md-3">
+            <h3>Zure Slungels</h3>
+            <p>Prijs per 100 gram: &euro; <span id="zureslungels_prijs" 1.55</span> </p>
+        </div>
+
+        <div class="col-md-1">
+            <input type="number" id="aantalslungels" class="form-cotrol" value="0" >
+        </div>
+
+        <!--<div class="col-md-1">
+            <p id="slungelstotal">0.00</p>
+        </div>-->
+
+    </div><!--row-->
+
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-responsive" src="img/candy7.jpg">
+        </div>
+
+        <div class="col-md-3">
+            <h3>Partijtje Pasetelsnoep</h3>
+            <p>Prijs per 100 gram: &euro;<span id="partijtje_prijs" 1.45</span></p>
+        </div>
+
+        <div class="col-md-1">
+            <input type="number" id="aantalpartijtje" class="form-cotrol" value="0">
+        </div>
+
+        <!-- <div class="col-md-1">
+            <p id="pasteltotal">0.00</p>
+        </div>-->
+
+    </div><!--row-->
+
+        <div class="row">
+            <div class="col-md-7">
+                <input type="checkbox" id="snoepemmer" value="1.50"> In feestelijke snoepemmer (&euro; 1,50)
+            </div>
+
+        </div> <!--row -->
+
+        <div class="row">
+            <div class="col-md-7">
+                <input type="checkbox" id="borstel" value="24.95"> <label id="tandenborstel">Met elektrische tandenborstel (&euro; 24,95)</label>
+            </div>
+
+        </div> <!--row -->
+
+        <br>
+        <div class="radiobutton">
+            <div><input type="radio" checked="checked"> Zelf ophalen (Gratis!)</div>
+        </div>
+
+        <div class="radio">
+            <div><input type="radio" id="radiobutton">Laten bezorgen(&euro; 4,95)</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7 text-right">
+                <button type="button" id="totaalknop" class="btn btn-default">Bereken totaal</button>
+            </div>
+
+            <div class="col-md-2 text-right">
+                <p id="totaalprijs">Totaal:</p>
+            </div>
+        </div> <!-- row -->
+    </div> <!--container -->
+
+<script>
+    //nog niet af
+    //Smarties
+    function subtotaalberekenensmarties(){
+        var prijs = 1.50;
+        var aantal = (aantalinput.value);
+        var totaalprijs = prijs * aantal;
+    }
+
+
+    var aantalsmarties = document.getElementById("aantalsmarties");
+    var smartiestotal = document.getElementById("smartiestotal");
+
+    aantalsmarties.addEventListener("change", function() {
+        subtotaalberekenensmarties(aantalsmarties, smartiestotal);
+    });
+
+    //slungels
+    function subtotaalberekenenslungels(){
+        var prijs = 1.50;
+        var aantal = (aantalinput.value);
+        var totaalprijs = prijs * aantal;
+    }
+
+
+
+</script>
+</body>
+</html>

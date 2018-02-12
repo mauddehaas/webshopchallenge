@@ -1,0 +1,14 @@
+h1,h2, h3{
+    font-family: 'Freckle Face', cursive;
+}
+
+body, p, a{
+    font-family: 'Alegreya', serif;
+}
+
+
+.jumbotron {
+    background-image: url('../img/candy_head.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
