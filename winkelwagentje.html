@@ -57,8 +57,13 @@
             </div>
 
 
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <input type="number" id="smarties_aantal" class="form-cotrol" name="prijs" value="0" />
+            </div>
+
+
+            <div class="col-md-1">
+                <p id="smarties_totaal">0.00</p>
             </div>
 
         </div> <!--row-->
@@ -75,12 +80,12 @@
             </div>
 
             <div class="col-md-1">
-                <input type="number" id="aantalslungels" class="form-cotrol" value="0">
+                <input type="number" id="aantalzureslungels" class="form-cotrol" name="prijs" value="0">
             </div>
 
-            <!--<div class="col-md-1">
-                <p id="slungelstotal">0.00</p>
-            </div>-->
+            <div class="col-md-1">
+                <p id="smarties_totaal">0.00</p>
+            </div>
 
         </div><!--row-->
 
@@ -95,12 +100,12 @@
             </div>
 
             <div class="col-md-1">
-                <input type="number" id="aantalpartijtje" class="form-cotrol" value="0">
+                <input type="number" id="aantalpartijtje" class="form-cotrol" name="prijs" value="0">
             </div>
 
-            <!-- <div class="col-md-1">
-                <p id="pasteltotal">0.00</p>
-            </div>-->
+            <div class="col-md-1">
+                <p id="smarties_totaal">0.00</p>
+            </div>
 
         </div><!--row-->
 
@@ -138,32 +143,6 @@
         </div> <!-- row -->
     </div> <!--container -->
 
-    <script>
-        //nog niet af
-        //Smarties
-        function subtotaalberekenensmarties() {
-            var prijs = 1.50;
-            var aantal = (aantalinput.value);
-            var totaalprijs = prijs * aantal;
-        }
-
-
-        var aantalsmarties = document.getElementById("aantalsmarties");
-        var smartiestotal = document.getElementById("smartiestotal");
-
-        aantalsmarties.addEventListener("change", function () {
-            subtotaalberekenensmarties(aantalsmarties, smartiestotal);
-        });
-
-        //slungels
-        function subtotaalberekenenslungels() {
-            var prijs = 1.50;
-            var aantal = (aantalinput.value);
-            var totaalprijs = prijs * aantal;
-        }
-
-
-
-    </script>
+    <script src="winkelwagen.js"></script>
 </body>
 </html>
