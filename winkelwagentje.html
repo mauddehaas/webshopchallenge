@@ -53,17 +53,17 @@
 
             <div class="col-md-3">
                 <h3>Smarties</h3>
-                <p>Prijs per 100 gram: &euro; <span id="smarties_prijs"> 1,50 </span> </p>
+                <p>Prijs per 100 gram: &euro; <span id="smarties_prijs"> 1,50</span></p>
             </div>
 
 
             <div class="col-md-2">
-                <input type="number" id="smarties_aantal" class="form-cotrol" name="prijs" value="0" />
+                <input type="number" id="smarties_aantal" class="form-cotrol" name="prijs" value="0" onchange="berekenSubTotaal('smarties_totaal','smarties_aantal', 'smarties_prijs') " />
             </div>
 
 
             <div class="col-md-1">
-                <p id="smarties_totaal">0.00</p>
+                <p id="smarties_totaal">0,00</p>
             </div>
 
         </div> <!--row-->
@@ -80,11 +80,11 @@
             </div>
 
             <div class="col-md-1">
-                <input type="number" id="zureslungels_aantal" class="form-cotrol" name="prijs" value="0">
+                <input type="number" id="zureslungels_aantal" class="form-cotrol" name="prijs" value="0" onchange="berekenSubTotaal('zureslungels_totaal','zureslungels_aantal', 'zureslungels_prijs') " />
             </div>
 
             <div class="col-md-1">
-                <p id="smarties_totaal">0.00</p>
+                <p id="zureslungels_totaal">0.00</p>
             </div>
 
         </div><!--row-->
@@ -96,15 +96,15 @@
 
             <div class="col-md-3">
                 <h3>Partijtje Pasetelsnoep</h3>
-                <p>Prijs per 100 gram: &euro;<span id="partijtje_prijs"> 1.45</span></p>
+                <p>Prijs per 100 gram: &euro; <span id="partijtje_prijs"> 1.45</span></p>
             </div>
 
             <div class="col-md-1">
-                <input type="number" id="partijtje_aantal" class="form-cotrol" name="prijs" value="0">
+                <input type="number" id="partijtje_aantal" class="form-cotrol" name="prijs" value="0" onchange="berekenSubTotaal('partijtje_totaal','partijtje_aantal', 'partijtje_prijs')" />
             </div>
 
             <div class="col-md-1">
-                <p id="smarties_totaal">0.00</p>
+                <p id="partijtje_totaal">0.00</p>
             </div>
 
         </div><!--row-->
@@ -125,7 +125,7 @@
 
         <br>
         <div class="radiobutton">
-            <div><input type="radio" checked="checked"> Zelf ophalen (Gratis!)</div>
+            <div><input type="radio"> Zelf ophalen (Gratis!)</div>
         </div>
 
         <div class="radio">
@@ -134,7 +134,7 @@
 
         <div class="row">
             <div class="col-md-7 text-right">
-                <button type="button" id="totaalknop" class="btn btn-default">Bereken totaal</button>
+                <button type="button" id="totaalknop" class="btn btn-default btn-info">Bereken totaal</button>
             </div>
 
             <div class="col-md-2 text-right">
