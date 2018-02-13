@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-winkelwagen",
+      "appliesTo": "winkelwagen.js",
+      "type": "launch"
+    }
+  ]
+}
