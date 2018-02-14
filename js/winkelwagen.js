@@ -21,20 +21,43 @@ function berekenSubTotaal(totaal, aantal_geselecteerd, prijs_geselecteerd) //<= 
 
 }
 
-document.getElementById("totaalknop").addEventListener("click", function () {
+    document.getElementById("totaalknop").addEventListener("click", function () {
+
 
     //de totaal prijs berekenen
+    var totaalprijspartijtje = document.getElementById("partijtje_totaal").textContent;
     var totaalprijssmarties = document.getElementById("smarties_totaal").textContent;
     var totaalprijszureslungels = document.getElementById("zureslungels_totaal").textContent;
-    var totaalprijspartijtje = document.getElementById("partijtje_totaal").textContent;
+    
 
+   
     //alles bij elkaar optellen en de punt weer te verplaatsen met een komma
     var totaalprijs_totaal = parseFloat(totaalprijssmarties.replace(',', "."))
         + parseFloat(totaalprijszureslungels.replace(',', "."))
         + parseFloat(totaalprijspartijtje.replace(',', "."));
 
-    //detotaal prijs afronden op 2getallen en plaatsen naast totaal
+
+    if (document.getElementById("tandenborstel").checked) {
+        totaalprijs_totaal = totaalprijs_totaal;
+        totaalprijs_totaal = totaalprijs_totaal + 24.95;
+    }
+
+    if (document.getElementById("snoepemmer").checked) {
+        totaalprijs_totaal = totaalprijs_totaal;
+        totaalprijs_totaal = totaalprijs_totaal + 1.50;
+    }
+
+    if (document.getElementById("radiobutton").checked) {
+        totaalprijs_totaal = totaalprijs_totaal;
+        totaalprijs_totaal = totaalprijs_totaal + 4.95;
+    }
+
+    //de totaal prijs afronden op 2getallen en plaatsen naast totaal
     var tb = document.getElementById('totaalprijs')
-   tb.textContent = 'Totaal: ' + parseFloat(Math.round(totaalprijs_totaal * 100) / 100).toFixed(2);
+    tb.textContent = 'Totaal: ' + parseFloat(Math.round((totaalprijs_totaal) * 100) / 100).toFixed(2);
+
+   
 });
+
+
 

@@ -76,15 +76,15 @@
 
             <div class="col-md-3">
                 <h3>Zure Slungels</h3>
-                <p>Prijs per 100 gram: &euro; <span id="zureslungels_prijs"> 1.55</span> </p>
+                <p>Prijs per 100 gram: &euro; <span id="zureslungels_prijs"> 1,55</span></p>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <input type="number" id="zureslungels_aantal" class="form-cotrol" name="prijs" value="0" onchange="berekenSubTotaal('zureslungels_totaal','zureslungels_aantal', 'zureslungels_prijs') " />
             </div>
 
             <div class="col-md-1">
-                <p id="zureslungels_totaal">0.00</p>
+                <p id="zureslungels_totaal">0,00</p>
             </div>
 
         </div><!--row-->
@@ -96,15 +96,15 @@
 
             <div class="col-md-3">
                 <h3>Partijtje Pasetelsnoep</h3>
-                <p>Prijs per 100 gram: &euro; <span id="partijtje_prijs"> 1.45</span></p>
+                <p>Prijs per 100 gram: &euro; <span id="partijtje_prijs"> 1,45</span></p>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <input type="number" id="partijtje_aantal" class="form-cotrol" name="prijs" value="0" onchange="berekenSubTotaal('partijtje_totaal','partijtje_aantal', 'partijtje_prijs')" />
             </div>
 
             <div class="col-md-1">
-                <p id="partijtje_totaal">0.00</p>
+                <p id="partijtje_totaal">0,00</p>
             </div>
 
         </div><!--row-->
@@ -118,31 +118,31 @@
 
         <div class="row">
             <div class="col-md-7">
-                <input type="checkbox" id="borstel" value="24.95"> <label id="tandenborstel">Met elektrische tandenborstel (&euro; 24,95)</label>
+                <input type="checkbox" id="tandenborstel" name="tandenborstel" value="24.95">Met elektrische tandenborstel (&euro; 24,95)
             </div>
-
         </div> <!--row -->
 
-        <br>
-        <div class="radiobutton">
-            <div><input type="radio"> Zelf ophalen (Gratis!)</div>
-        </div>
-
-        <div class="radio">
-            <div><input type="radio" id="radiobutton">Laten bezorgen(&euro; 4,95)</div>
-        </div>
-
+        <div class="row">
+            <div class="radio">
+                <label><input type="radio" name="radiobutton"> Zelf ophalen (Gratis!)</label>
+            </div>
+       
+            <div class="radio">
+                <label><input type="radio" name="radiobutton" id="radiobutton">Laten bezorgen(&euro; 4,95)</label>
+            </div>
+        </div><!--row -->
         <div class="row">
             <div class="col-md-7 text-right">
                 <button type="button" id="totaalknop" class="btn btn-default btn-info">Bereken totaal</button>
             </div>
+        </div><!--row -->
 
-            <div class="col-md-2 text-right">
-                <p id="totaalprijs">Totaal:</p>
-            </div>
-        </div> <!-- row -->
+        <div class="col-md-2 text-right">
+            <p id="totaalprijs">Totaal:</p>
+        </div>
+    </div> <!-- row -->
     </div> <!--container -->
 
-    <script src="js/winkelwagen.js"></script>
+            <script src="js/winkelwagen.js"></script>
 </body>
 </html>
